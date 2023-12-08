@@ -6,8 +6,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // Routes;
-app.get('/test', (req, res) => {
-  res.send('test success');
+app.get('/', (req, res) => {
+  res.status(200).json({
+    data: 'yeap oldu',
+  });
 });
 
 // Start server
