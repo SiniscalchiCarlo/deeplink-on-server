@@ -1,9 +1,9 @@
 [{
     "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
+    "target" : { 
+      "namespace": "android_app", 
       "package_name": "com.suleymangunes.deeplinking_autorotue.deeplinking_autoroute",
-      "sha256_cert_fingerprints":
-      ["74:36:A7:11:4A:54:65:9F:F1:94:7C:91:93:80:17:A4:7D:53:F0:D8:3D:1C:7D:80:AE:7F:96:88:B7:45:5B:C9"]
+      "sha256_cert_fingerprints": 
+      ["CA:5A:82:A0:52:D1:87:FE:EE:A9:46:4F:80:B7:19:89:69:4A:B7:D5:B2:A3:90:EC:29:9E:0A:4D:0B:8B:8B:3C"] 
     }
   }]
