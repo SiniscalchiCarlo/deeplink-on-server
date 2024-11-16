@@ -13,6 +13,14 @@ app.get('/', (req, res) => {
   });
 });
 
+// Add a route for /list
+app.get('/list', (req, res) => {
+  const listId = req.query.listId;
+  res.status(200).json({
+    message: `Received listId: ${listId}`,
+  });
+});
+
 // Start server
 const port = 3000;
 app.listen(port, () => {
