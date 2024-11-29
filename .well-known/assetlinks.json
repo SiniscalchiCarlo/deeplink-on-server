@@ -1,9 +1,11 @@
-[{
+[
+  {
     "relation": ["delegate_permission/common.handle_all_urls"],
-    "target" : { 
-      "namespace": "android_app", 
+    "target": {
+      "namespace": "android_app",
       "package_name": "com.smartShoppingList.app",
-      "sha256_cert_fingerprints": 
-      ["71:C7:49:2F:05:6F:AB:6D:46:F7:C2:DE:1D:A6:9C:A9:CD:BE:68:DC:2E:F9:86:05:04:97:04:11:43:B3:58:E1"] 
+      "sha256_cert_fingerprints":
+        ["71:C7:49:2F:05:6F:AB:6D:46:F7:C2:DE:1D:A6:9C:A9:CD:BE:68:DC:2E:F9:86:05:04:97:04:11:43:B3:58:E1"]
     }
-  }]
+  }
+]
